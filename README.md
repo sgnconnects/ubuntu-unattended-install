@@ -26,6 +26,8 @@ Here we will edit the /opt/ubuntuiso/isolinux/txt.cfg file and customize our boo
 
 ```
 #default live
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsgnconnects%2Fubuntu-unattended-install.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsgnconnects%2Fubuntu-unattended-install?ref=badge_shield)
+
 #label live
 #  menu label ^Try Ubuntu without installing
 #  kernel /casper/vmlinuz.efi
@@ -130,3 +132,7 @@ d-i grub-installer/bootdev  string /dev/sda
 # To install to the first device (assuming it is not a USB stick):
 #d-i grub-installer/bootdev  string default
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsgnconnects%2Fubuntu-unattended-install.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsgnconnects%2Fubuntu-unattended-install?ref=badge_large)
